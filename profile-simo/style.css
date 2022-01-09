@@ -1,0 +1,114 @@
+@import url('https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2');
+
+body {
+  background-color: #033270;
+  background-image: url("https://source.unsplash.com/featured/?blue");
+  
+  color: #e4e4e4;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h1 {
+  color: #247a56;
+  font-size: larger;
+}
+
+h2 {
+  color: #b484be;
+}
+
+h3 {
+  color: #6eccb5;
+  text-align: left;
+}
+
+p {
+  text-align: justify;
+}
+
+pre {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #afadc2;
+}
+
+.card {
+  background-color: #7793a3;
+  margin: 20px;
+  padding: 30px;
+  box-shadow: 3px 5px 2px rgb(0 4 255 / 15%);
+  border-radius: 5px;
+  border: 1px solid #b2adcf;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#btn-le-wagon {
+  background-color: #517d9e;
+  padding: 10px;
+  box-shadow: 2px 2px 2px rgba(78, 80, 218, 0.15);
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.5s;
+}
+
+#btn-le-wagon:hover {
+  background-color:rgb(0, 180, 180);
+  color: #296899;
+  font-weight: bold;
+  border-radius: 3px 10px 3px 10px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 15%);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 40px;
+}
+
+.ascii-text {
+  font-size: 10pt;
+  font-family: Monospace;
+  white-space: pre;
+}
